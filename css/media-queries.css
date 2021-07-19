@@ -1,0 +1,86 @@
+@media (max-width: 960px) {
+  header {
+    height: 50vh;
+  }
+
+  header div {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding-top: 2em;
+  }
+
+  .title {
+    margin-top: 2em;
+  }
+
+  .flex {
+    flex-direction: column;
+    /* border-top: solid slategray 1px ; */
+    margin-top: 1em;
+  }
+
+  .flex section {
+    width: 100%;
+  }
+
+  .Set img {
+    height: 400px;
+    width: 100%;
+  }
+
+  .img-flex {
+    flex-direction: column;
+    margin: 0em 4em;
+  }
+
+  .article {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .article-image {
+    width: 90%;
+  }
+
+  .arty-body {
+    width: 100%;
+    padding-top: 2em;
+  }
+
+  .art-2 {
+    flex-direction: column-reverse;
+  }
+
+  .art-2 .arty-body {
+    padding: 0;
+  }
+
+  .art-2 .article-image {
+    margin-top: 2em;
+  }
+}
+
+@media (max-width: 480px) {
+  ul {
+    margin-left: 0.7em;
+  }
+
+  ul li a {
+    padding: 0.2em 0.7em;
+    margin: 0;
+  }
+
+  .Set img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 380px) {
+  ul {
+    margin-left: 1.2em;
+  }
+
+  ul li a {
+    padding: 0.2em 0.5em;
+  }
+}
